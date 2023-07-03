@@ -25,7 +25,8 @@ setup(
     #data_files = [
     #    ('objutils/tests/ELFFiles', glob('objutils/tests/ELFFiles*.*')),
     #],
-    package_dir = {'tests': 'pyccp/tests'},
+    package_dir = {'tests': 'pyccp/tests',
+                   'pyccp': 'pyccp'},
     #package_data = {'tests': ['ELFFiles/*.*']},
     #include_package_data = True,
     test_suite = "pyccp.tests"
